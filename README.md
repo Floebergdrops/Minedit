@@ -37,3 +37,17 @@ npm start
 环境要求：Node.js
 安装依赖：npm install
 启动项目：npm start
+
+## 打包说明
+
+```bash
+# 首次打包前安装打包工具
+npm install --save-dev electron-builder
+
+# 执行打包
+npm run build
+```
+
+打包产物输出在 `dist` 目录，Windows 平台会生成 `.exe` 安装包。
+`dist`、`build`、`*.exe` 已加入 `.gitignore`，不会提交到仓库。
+
