@@ -7,14 +7,53 @@
     "monaco-editor": "^0.19.3",
     "monaco-loader": "^1.0.0"
   },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --publish never",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.minedit.mod",
+    "productName": "Minedit Mod",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.js",
+      "src/**/*",
+      "assets/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/2kabhishek/Minedit.git"
   },
+  "keywords": [
+    "editor",
+    "electron"
+  ],
   "author": "Abhishek Keshri",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/2kabhishek/Minedit/issues"
   },
-  "homepage": "https://github.com/2kabhishek/Minedit#readme"
+  "homepage": "https://github.com/2kabhishek/Minedit#readme",
+  "devDependencies": {
+    "electron": "^39.8.10",
+    "electron-builder": "^26.18.0",
+    "eslint": "^9.34.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
 }
