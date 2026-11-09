@@ -1,7 +1,7 @@
 {
-  "name": "minedit",
+  "name": "minedit-mod",
   "version": "0.0.1",
-  "description": "Minimalistic text editor built using Electron.",
+  "description": "Minedit Mod: Minimalistic text editor built using Electron.",
   "main": "index.js",
   "dependencies": {
     "electron": "^39.8.10",

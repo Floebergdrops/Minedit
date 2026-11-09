@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/Minedit">Minedit</a></h1>
+<h1><a href="https://2kabhishek.github.io/Minedit">Minedit Mod</a></h1>
 
 <a href="https://github.com/2KAbhishek/Minedit/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/Minedit?style=flat&color=eee&label="> </a>
