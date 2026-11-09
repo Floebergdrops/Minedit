@@ -32,3 +32,8 @@ cd Minedit
 npm install
 npm start
 ```
+
+## 本地运行说明
+环境要求：Node.js
+安装依赖：npm install
+启动项目：npm start
